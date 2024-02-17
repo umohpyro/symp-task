@@ -24,9 +24,6 @@ test('Read the response, find all objects with property “Category: Authenticat
 
   const filteredEntries = apiRes.entries.filter((entry:Entry) => entry.Category === 'Authentication & Authorization')
 
-
-  // expect (filteredEntries.length).toBeLessThan(apiRes.entries.length)
-
   // expect(count).toEqual(1427)
 
   console.log("Original Entries Count", numberOfOriginalEntries);
