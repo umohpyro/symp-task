@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "task1": "playwright test tests\task1_symphony.spec.ts",
+    "task2": "playwright test tests\task2_symphony.spec.ts",
+    "show-report": "npx playwright show-report",
+    "show-report-html": "npx playwright test --reporter=html"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Imekan Enang",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.41.2",
